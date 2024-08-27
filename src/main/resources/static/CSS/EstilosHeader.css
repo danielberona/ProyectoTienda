@@ -1,0 +1,197 @@
+/* cetear la pagina  */
+
+/* estes todo los elementos de la pagina */
+
+
+
+*{
+    /* Margen de la pagina */
+    margin: 0;
+    /* margen interna */
+    padding: 0;
+
+    /* formato de los elemento */
+    box-sizing: border-box;
+
+    /* fuentes de la pagina  */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+/* cuerpo de la pagina  */
+body{
+    background-color: #75838b;
+}
+
+/* logo de la pagina  */
+.logo img{
+
+    /* Tamaño Ancho  */
+    width: 130px;
+
+    /* Tamaño "submargen" */
+    padding: 10px;
+    
+    /* Propiedad del curso  */
+    cursor: pointer;
+
+   
+   
+}
+
+
+
+.menu-bar .enlaces ul li a{
+
+    /* tamaño de la letra */
+    font-size: 14px;
+
+    /* Color */
+
+    color: #75838b;
+
+    /* Negrilla */
+    font-weight: 600;
+
+    /* "text-transform" para cambiar a mayúsculas y minúsculas */
+    text-transform: uppercase;
+   
+    /* "text-decoration" quitar la raya de los enlaces */
+
+    text-decoration: none;
+
+    /* efecto de line de bajo */
+    /* Linea de bajo  */
+    background: linear-gradient(currentColor,CurrentColor);
+
+    background-position: 100% 100%;
+
+    background-repeat: no-repeat;
+
+    background-size: 0% 2px;
+
+    /* tracción de elementos */
+    transition: all 0.9s;
+
+}
+
+/* clase para las propiedades de los iconos */
+.menu-bar .sociales a{
+
+    padding: 0 10px;
+
+    color: #75838b;
+
+
+    text-decoration: none;
+
+    
+
+
+}
+
+/* clase para las propiedades de los iconos */
+.menu-bar .sociales span.material-icons{
+
+/* tamaño de los iconos  */
+    font-size: 30px;
+   
+}
+
+
+.menu-principal{
+
+    /* Color del fondo  */
+    background-color: #ecb359;
+
+/* Unidades de medida fija y dinamica  */
+    /* alto del objeto */
+    height: 75px;
+
+    width: 100%;
+
+   
+    /* Propiedad Display maneja flex -  block  - grid*/
+    display: flex;
+
+    /* Separar los elementos  */
+
+    justify-content: space-around;
+
+    /* Centro de objeto  */
+    align-items: center;
+
+
+    padding: 0 30px;
+
+
+    margin-top: 10px;
+
+
+}
+
+/* menu bar es  hijo 2.1, 2.2 */
+.menu-bar {
+
+    width: 100%;
+
+    display: flex;    
+
+    justify-content: space-between;
+
+}
+
+.menu-bar .enlaces ul li{
+
+    display: inline-block;
+
+    padding: 0px 10px;
+
+}
+
+/* pseudo clase :hover */
+
+.menu-bar .enlaces ul li a:hover{
+
+    /* Cambio de color */
+    color: black;
+
+
+    /* efecto de raya de letras */
+    background-size: 90% 2px;
+
+    
+}
+
+.sociales a:hover{
+    color: black;
+
+    transition: all 0.8s;
+}
+
+
+
+/* estos son los estilos de boton */
+
+
+.menu-principal i{
+
+    color: #B34D4D;
+
+    font-size: 40px;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+
+    display: none;
+}
+
+.menu-principal i:hover{
+    color: lightcoral;
+}
+
+
+
+
